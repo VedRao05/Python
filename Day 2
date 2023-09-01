@@ -1,0 +1,21 @@
+Sure, here's a simple Python program that takes two inputs from the user and performs the requested operations:
+
+```python
+# Taking user inputs for variables a and b
+a = float(input("Enter the value of 'a': "))
+b = float(input("Enter the value of 'b': "))
+
+# 1. Floor Division
+floor_division_result = a // b
+print(f"Floor Division result: {floor_division_result}")
+
+# 2. a power b
+power_result = a ** b
+print(f"'a' raised to the power 'b' result: {power_result}")
+
+# 3. Check if two variables are equal
+equal_result = (a == b)
+print(f"Are 'a' and 'b' equal? {equal_result}")
+```
+
+This program will take the user's input for 'a' and 'b', calculate the floor division, 'a' raised to the power 'b', and check if 'a' and 'b' are equal, then it will display the results accordingly.
